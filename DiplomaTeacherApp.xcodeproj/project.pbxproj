@@ -7,15 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2707E3BA8428A1385C9A26E4 /* Pods_DiplomaTeacherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D945FD0AC2BE64FCB17797 /* Pods_DiplomaTeacherAppTests.framework */; };
+		3D93053F27E9D45A001E29B2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93053E27E9D45A001E29B2 /* APIClient.swift */; };
+		3D93054127E9D59C001E29B2 /* SocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93054027E9D59C001E29B2 /* SocketClient.swift */; };
+		3D93054327E9D5E3001E29B2 /* MainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93054227E9D5E3001E29B2 /* MainData.swift */; };
+		3D93054527E9D60B001E29B2 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93054427E9D60B001E29B2 /* StorageManager.swift */; };
+		3D93054927E9D671001E29B2 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93054827E9D671001E29B2 /* KeyConstants.swift */; };
+		3D93054D27EA0630001E29B2 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93054C27EA0630001E29B2 /* LogInViewController.swift */; };
+		3D93054F27EA063F001E29B2 /* LogInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93054E27EA063F001E29B2 /* LogInInteractor.swift */; };
+		3D93055127EA064C001E29B2 /* LogInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93055027EA064C001E29B2 /* LogInPresenter.swift */; };
+		3D93055327EA0656001E29B2 /* LogInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93055227EA0656001E29B2 /* LogInRouter.swift */; };
+		3D93055527EA070E001E29B2 /* LogInConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93055427EA070E001E29B2 /* LogInConfigurator.swift */; };
+		3D93055827EA0728001E29B2 /* LogInViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93055727EA0728001E29B2 /* LogInViewProtocol.swift */; };
+		3D93055A27EA0737001E29B2 /* LogInInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93055927EA0737001E29B2 /* LogInInteractorProtocol.swift */; };
+		3D93055C27EA074D001E29B2 /* LogInPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93055B27EA074D001E29B2 /* LogInPresenterProtocol.swift */; };
+		3D93055E27EA07BB001E29B2 /* LogInRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93055D27EA07BB001E29B2 /* LogInRouterProtocol.swift */; };
+		3D93056027EA07CD001E29B2 /* LogInConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93055F27EA07CD001E29B2 /* LogInConfiguratorProtocol.swift */; };
+		3D93056227EA7920001E29B2 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93056127EA791F001E29B2 /* Account.swift */; };
+		3D93056427EA7AE2001E29B2 /* Discipline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93056327EA7AE2001E29B2 /* Discipline.swift */; };
+		3D93056627EA7B39001E29B2 /* Exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93056527EA7B39001E29B2 /* Exam.swift */; };
+		3D93056827EA7CDD001E29B2 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93056727EA7CDD001E29B2 /* Teacher.swift */; };
+		3D93056A27EA7D76001E29B2 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93056927EA7D76001E29B2 /* Student.swift */; };
+		3D93056C27EA7F7D001E29B2 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93056B27EA7F7D001E29B2 /* Ticket.swift */; };
+		3D93056E27EB1443001E29B2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93056D27EB1443001E29B2 /* SignUpViewController.swift */; };
+		3D93057027EB145A001E29B2 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93056F27EB145A001E29B2 /* SignUpInteractor.swift */; };
+		3D93057227EB1465001E29B2 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93057127EB1465001E29B2 /* SignUpPresenter.swift */; };
+		3D93057427EB1471001E29B2 /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93057327EB1471001E29B2 /* SignUpRouter.swift */; };
+		3D93057627EB147F001E29B2 /* SignUpConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93057527EB147F001E29B2 /* SignUpConfigurator.swift */; };
+		3D93057927EB1493001E29B2 /* SignUpViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93057827EB1493001E29B2 /* SignUpViewProtocol.swift */; };
+		3D93057B27EB14A5001E29B2 /* SignUpInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93057A27EB14A5001E29B2 /* SignUpInteractorProtocol.swift */; };
+		3D93057D27EB14B4001E29B2 /* SignUpPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93057C27EB14B4001E29B2 /* SignUpPresenterProtocol.swift */; };
+		3D93057F27EB14C6001E29B2 /* SignUpRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93057E27EB14C6001E29B2 /* SignUpRouterProtocol.swift */; };
+		3D93058127EB14F2001E29B2 /* SignUpConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93058027EB14F2001E29B2 /* SignUpConfiguratorProtocol.swift */; };
+		3D93058527EB1757001E29B2 /* ExamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93058427EB1757001E29B2 /* ExamListViewController.swift */; };
+		3D93058727EB1763001E29B2 /* ExamListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93058627EB1763001E29B2 /* ExamListInteractor.swift */; };
+		3D93058927EB176E001E29B2 /* ExamListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93058827EB176E001E29B2 /* ExamListPresenter.swift */; };
+		3D93058B27EB177F001E29B2 /* ExamListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93058A27EB177F001E29B2 /* ExamListRouter.swift */; };
+		3D93058D27EB178A001E29B2 /* ExamListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93058C27EB178A001E29B2 /* ExamListConfigurator.swift */; };
+		3D93059027EB17A3001E29B2 /* ExamListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93058F27EB17A3001E29B2 /* ExamListViewProtocol.swift */; };
+		3D93059227EB17C5001E29B2 /* ExamListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93059127EB17C5001E29B2 /* ExamListInteractorProtocol.swift */; };
+		3D93059427EB17D2001E29B2 /* ExamListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93059327EB17D2001E29B2 /* ExamListPresenterProtocol.swift */; };
+		3D93059627EB17DF001E29B2 /* ExamListRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93059527EB17DF001E29B2 /* ExamListRouterProtocol.swift */; };
+		3D93059827EB17ED001E29B2 /* ExamListConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93059727EB17ED001E29B2 /* ExamListConfiguratorProtocol.swift */; };
+		3D93059C27EB1C4A001E29B2 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93059B27EB1C4A001E29B2 /* ImageUploader.swift */; };
+		3D9305A027EB1D8E001E29B2 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93059F27EB1D8E001E29B2 /* DataType.swift */; };
+		3D9305A327EB1E32001E29B2 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9305A227EB1E32001E29B2 /* AnyError.swift */; };
+		3D9305A527EB1E3C001E29B2 /* ResponseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9305A427EB1E3C001E29B2 /* ResponseMessage.swift */; };
+		3D9305A827EB1E78001E29B2 /* RequestInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9305A727EB1E78001E29B2 /* RequestInit.swift */; };
+		3D9305AA27EB1EC9001E29B2 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9305A927EB1EC9001E29B2 /* ResponseType.swift */; };
+		3D9305AC27EB1F5C001E29B2 /* AuthApiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9305AB27EB1F5C001E29B2 /* AuthApiModule.swift */; };
+		3D9305AE27EB2010001E29B2 /* AuthApiDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9305AD27EB2010001E29B2 /* AuthApiDelegate.swift */; };
+		3D9305B027EB2054001E29B2 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9305AF27EB2054001E29B2 /* RequestManager.swift */; };
+		3D9305B227EB2085001E29B2 /* RequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9305B127EB2085001E29B2 /* RequestDelegate.swift */; };
+		3D9305B427EB2705001E29B2 /* MessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9305B327EB2705001E29B2 /* MessageEntity.swift */; };
+		3D9305B627EB279E001E29B2 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9305B527EB279E001E29B2 /* StringExtension.swift */; };
 		3DB15B3C27E7134500B93A4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB15B3B27E7134500B93A4F /* AppDelegate.swift */; };
 		3DB15B3E27E7134500B93A4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB15B3D27E7134500B93A4F /* SceneDelegate.swift */; };
-		3DB15B4027E7134500B93A4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB15B3F27E7134500B93A4F /* ViewController.swift */; };
 		3DB15B4327E7134500B93A4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB15B4127E7134500B93A4F /* Main.storyboard */; };
 		3DB15B4527E7134700B93A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB15B4427E7134700B93A4F /* Assets.xcassets */; };
 		3DB15B4827E7134700B93A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB15B4627E7134700B93A4F /* LaunchScreen.storyboard */; };
 		3DB15B5327E7134800B93A4F /* DiplomaTeacherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB15B5227E7134800B93A4F /* DiplomaTeacherAppTests.swift */; };
 		3DB15B5D27E7134800B93A4F /* DiplomaTeacherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB15B5C27E7134800B93A4F /* DiplomaTeacherAppUITests.swift */; };
 		3DB15B5F27E7134800B93A4F /* DiplomaTeacherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB15B5E27E7134800B93A4F /* DiplomaTeacherAppUITestsLaunchTests.swift */; };
+		3F382B4EFF5E03D226379DE2 /* Pods_DiplomaTeacherApp_DiplomaTeacherAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BA5AF9FC7AEBC917C69C25 /* Pods_DiplomaTeacherApp_DiplomaTeacherAppUITests.framework */; };
+		A603EDEDABBAA03A265D275F /* Pods_DiplomaTeacherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27389CC4E1B821B71A01367B /* Pods_DiplomaTeacherApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +91,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27389CC4E1B821B71A01367B /* Pods_DiplomaTeacherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiplomaTeacherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D93053E27E9D45A001E29B2 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		3D93054027E9D59C001E29B2 /* SocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketClient.swift; sourceTree = "<group>"; };
+		3D93054227E9D5E3001E29B2 /* MainData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainData.swift; sourceTree = "<group>"; };
+		3D93054427E9D60B001E29B2 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		3D93054827E9D671001E29B2 /* KeyConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyConstants.swift; sourceTree = "<group>"; };
+		3D93054C27EA0630001E29B2 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		3D93054E27EA063F001E29B2 /* LogInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInInteractor.swift; sourceTree = "<group>"; };
+		3D93055027EA064C001E29B2 /* LogInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPresenter.swift; sourceTree = "<group>"; };
+		3D93055227EA0656001E29B2 /* LogInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInRouter.swift; sourceTree = "<group>"; };
+		3D93055427EA070E001E29B2 /* LogInConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInConfigurator.swift; sourceTree = "<group>"; };
+		3D93055727EA0728001E29B2 /* LogInViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewProtocol.swift; sourceTree = "<group>"; };
+		3D93055927EA0737001E29B2 /* LogInInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInInteractorProtocol.swift; sourceTree = "<group>"; };
+		3D93055B27EA074D001E29B2 /* LogInPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPresenterProtocol.swift; sourceTree = "<group>"; };
+		3D93055D27EA07BB001E29B2 /* LogInRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInRouterProtocol.swift; sourceTree = "<group>"; };
+		3D93055F27EA07CD001E29B2 /* LogInConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3D93056127EA791F001E29B2 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		3D93056327EA7AE2001E29B2 /* Discipline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discipline.swift; sourceTree = "<group>"; };
+		3D93056527EA7B39001E29B2 /* Exam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exam.swift; sourceTree = "<group>"; };
+		3D93056727EA7CDD001E29B2 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		3D93056927EA7D76001E29B2 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		3D93056B27EA7F7D001E29B2 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		3D93056D27EB1443001E29B2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3D93056F27EB145A001E29B2 /* SignUpInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInteractor.swift; sourceTree = "<group>"; };
+		3D93057127EB1465001E29B2 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		3D93057327EB1471001E29B2 /* SignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRouter.swift; sourceTree = "<group>"; };
+		3D93057527EB147F001E29B2 /* SignUpConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpConfigurator.swift; sourceTree = "<group>"; };
+		3D93057827EB1493001E29B2 /* SignUpViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewProtocol.swift; sourceTree = "<group>"; };
+		3D93057A27EB14A5001E29B2 /* SignUpInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInteractorProtocol.swift; sourceTree = "<group>"; };
+		3D93057C27EB14B4001E29B2 /* SignUpPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenterProtocol.swift; sourceTree = "<group>"; };
+		3D93057E27EB14C6001E29B2 /* SignUpRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRouterProtocol.swift; sourceTree = "<group>"; };
+		3D93058027EB14F2001E29B2 /* SignUpConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3D93058427EB1757001E29B2 /* ExamListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListViewController.swift; sourceTree = "<group>"; };
+		3D93058627EB1763001E29B2 /* ExamListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListInteractor.swift; sourceTree = "<group>"; };
+		3D93058827EB176E001E29B2 /* ExamListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListPresenter.swift; sourceTree = "<group>"; };
+		3D93058A27EB177F001E29B2 /* ExamListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListRouter.swift; sourceTree = "<group>"; };
+		3D93058C27EB178A001E29B2 /* ExamListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListConfigurator.swift; sourceTree = "<group>"; };
+		3D93058F27EB17A3001E29B2 /* ExamListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListViewProtocol.swift; sourceTree = "<group>"; };
+		3D93059127EB17C5001E29B2 /* ExamListInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListInteractorProtocol.swift; sourceTree = "<group>"; };
+		3D93059327EB17D2001E29B2 /* ExamListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListPresenterProtocol.swift; sourceTree = "<group>"; };
+		3D93059527EB17DF001E29B2 /* ExamListRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListRouterProtocol.swift; sourceTree = "<group>"; };
+		3D93059727EB17ED001E29B2 /* ExamListConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3D93059B27EB1C4A001E29B2 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		3D93059F27EB1D8E001E29B2 /* DataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
+		3D9305A227EB1E32001E29B2 /* AnyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
+		3D9305A427EB1E3C001E29B2 /* ResponseMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMessage.swift; sourceTree = "<group>"; };
+		3D9305A727EB1E78001E29B2 /* RequestInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestInit.swift; sourceTree = "<group>"; };
+		3D9305A927EB1EC9001E29B2 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		3D9305AB27EB1F5C001E29B2 /* AuthApiModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApiModule.swift; sourceTree = "<group>"; };
+		3D9305AD27EB2010001E29B2 /* AuthApiDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApiDelegate.swift; sourceTree = "<group>"; };
+		3D9305AF27EB2054001E29B2 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		3D9305B127EB2085001E29B2 /* RequestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDelegate.swift; sourceTree = "<group>"; };
+		3D9305B327EB2705001E29B2 /* MessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEntity.swift; sourceTree = "<group>"; };
+		3D9305B527EB279E001E29B2 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		3DB15B3827E7134500B93A4F /* DiplomaTeacherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiplomaTeacherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB15B3B27E7134500B93A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DB15B3D27E7134500B93A4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3DB15B3F27E7134500B93A4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DB15B4227E7134500B93A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DB15B4427E7134700B93A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DB15B4727E7134700B93A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +157,14 @@
 		3DB15B5827E7134800B93A4F /* DiplomaTeacherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiplomaTeacherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB15B5C27E7134800B93A4F /* DiplomaTeacherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiplomaTeacherAppUITests.swift; sourceTree = "<group>"; };
 		3DB15B5E27E7134800B93A4F /* DiplomaTeacherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiplomaTeacherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		497C9FC4B58D4E9F31D23260 /* Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests.release.xcconfig"; path = "Target Support Files/Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests/Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56FA03ECEC972065705ADC1A /* Pods-DiplomaTeacherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiplomaTeacherApp.release.xcconfig"; path = "Target Support Files/Pods-DiplomaTeacherApp/Pods-DiplomaTeacherApp.release.xcconfig"; sourceTree = "<group>"; };
+		872D39F336E3BE2A1665B695 /* Pods-DiplomaTeacherAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiplomaTeacherAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DiplomaTeacherAppTests/Pods-DiplomaTeacherAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		938524BEF195DD75D273041A /* Pods-DiplomaTeacherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiplomaTeacherApp.debug.xcconfig"; path = "Target Support Files/Pods-DiplomaTeacherApp/Pods-DiplomaTeacherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		95BB0FF75D8114F00ECEC1E3 /* Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests/Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9BA5AF9FC7AEBC917C69C25 /* Pods_DiplomaTeacherApp_DiplomaTeacherAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiplomaTeacherApp_DiplomaTeacherAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D945FD0AC2BE64FCB17797 /* Pods_DiplomaTeacherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiplomaTeacherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD156754B74B7C259F295811 /* Pods-DiplomaTeacherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiplomaTeacherAppTests.release.xcconfig"; path = "Target Support Files/Pods-DiplomaTeacherAppTests/Pods-DiplomaTeacherAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A603EDEDABBAA03A265D275F /* Pods_DiplomaTeacherApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2707E3BA8428A1385C9A26E4 /* Pods_DiplomaTeacherAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +188,205 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F382B4EFF5E03D226379DE2 /* Pods_DiplomaTeacherApp_DiplomaTeacherAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D93053927E9D3F5001E29B2 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				3D93056127EA791F001E29B2 /* Account.swift */,
+				3D93056327EA7AE2001E29B2 /* Discipline.swift */,
+				3D93056527EA7B39001E29B2 /* Exam.swift */,
+				3D93056727EA7CDD001E29B2 /* Teacher.swift */,
+				3D93056927EA7D76001E29B2 /* Student.swift */,
+				3D93056B27EA7F7D001E29B2 /* Ticket.swift */,
+				3D9305B327EB2705001E29B2 /* MessageEntity.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		3D93053A27E9D405001E29B2 /* app-modules */ = {
+			isa = PBXGroup;
+			children = (
+				3D93058327EB1730001E29B2 /* ExamList-Module */,
+				3D93054B27EA0615001E29B2 /* SignUp-Module */,
+				3D93054A27EA0609001E29B2 /* LogIn-Module */,
+			);
+			path = "app-modules";
+			sourceTree = "<group>";
+		};
+		3D93053B27E9D418001E29B2 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				3D93053D27E9D43E001E29B2 /* Networking */,
+				3D93053C27E9D42E001E29B2 /* localservice */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		3D93053C27E9D42E001E29B2 /* localservice */ = {
+			isa = PBXGroup;
+			children = (
+				3D93054227E9D5E3001E29B2 /* MainData.swift */,
+				3D93054427E9D60B001E29B2 /* StorageManager.swift */,
+				3D93054827E9D671001E29B2 /* KeyConstants.swift */,
+			);
+			path = localservice;
+			sourceTree = "<group>";
+		};
+		3D93053D27E9D43E001E29B2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3D9305A627EB1E5F001E29B2 /* Types */,
+				3D9305A127EB1E1B001E29B2 /* responseMessage */,
+				3D93059A27EB1C34001E29B2 /* protocols */,
+				3D93059927EB1C29001E29B2 /* api-modules */,
+				3D93059B27EB1C4A001E29B2 /* ImageUploader.swift */,
+				3D93053E27E9D45A001E29B2 /* APIClient.swift */,
+				3D93054027E9D59C001E29B2 /* SocketClient.swift */,
+				3D9305AF27EB2054001E29B2 /* RequestManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3D93054A27EA0609001E29B2 /* LogIn-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D93055627EA0715001E29B2 /* protocols */,
+				3D93054C27EA0630001E29B2 /* LogInViewController.swift */,
+				3D93054E27EA063F001E29B2 /* LogInInteractor.swift */,
+				3D93055027EA064C001E29B2 /* LogInPresenter.swift */,
+				3D93055227EA0656001E29B2 /* LogInRouter.swift */,
+				3D93055427EA070E001E29B2 /* LogInConfigurator.swift */,
+			);
+			path = "LogIn-Module";
+			sourceTree = "<group>";
+		};
+		3D93054B27EA0615001E29B2 /* SignUp-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D93057727EB1483001E29B2 /* protocols */,
+				3D93056D27EB1443001E29B2 /* SignUpViewController.swift */,
+				3D93056F27EB145A001E29B2 /* SignUpInteractor.swift */,
+				3D93057127EB1465001E29B2 /* SignUpPresenter.swift */,
+				3D93057327EB1471001E29B2 /* SignUpRouter.swift */,
+				3D93057527EB147F001E29B2 /* SignUpConfigurator.swift */,
+			);
+			path = "SignUp-Module";
+			sourceTree = "<group>";
+		};
+		3D93055627EA0715001E29B2 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3D93055727EA0728001E29B2 /* LogInViewProtocol.swift */,
+				3D93055927EA0737001E29B2 /* LogInInteractorProtocol.swift */,
+				3D93055B27EA074D001E29B2 /* LogInPresenterProtocol.swift */,
+				3D93055D27EA07BB001E29B2 /* LogInRouterProtocol.swift */,
+				3D93055F27EA07CD001E29B2 /* LogInConfiguratorProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3D93057727EB1483001E29B2 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3D93057827EB1493001E29B2 /* SignUpViewProtocol.swift */,
+				3D93057A27EB14A5001E29B2 /* SignUpInteractorProtocol.swift */,
+				3D93057C27EB14B4001E29B2 /* SignUpPresenterProtocol.swift */,
+				3D93057E27EB14C6001E29B2 /* SignUpRouterProtocol.swift */,
+				3D93058027EB14F2001E29B2 /* SignUpConfiguratorProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3D93058227EB1711001E29B2 /* common-ui */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "common-ui";
+			sourceTree = "<group>";
+		};
+		3D93058327EB1730001E29B2 /* ExamList-Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D93058E27EB178E001E29B2 /* protocols */,
+				3D93058427EB1757001E29B2 /* ExamListViewController.swift */,
+				3D93058627EB1763001E29B2 /* ExamListInteractor.swift */,
+				3D93058827EB176E001E29B2 /* ExamListPresenter.swift */,
+				3D93058A27EB177F001E29B2 /* ExamListRouter.swift */,
+				3D93058C27EB178A001E29B2 /* ExamListConfigurator.swift */,
+			);
+			path = "ExamList-Module";
+			sourceTree = "<group>";
+		};
+		3D93058E27EB178E001E29B2 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3D93058F27EB17A3001E29B2 /* ExamListViewProtocol.swift */,
+				3D93059127EB17C5001E29B2 /* ExamListInteractorProtocol.swift */,
+				3D93059327EB17D2001E29B2 /* ExamListPresenterProtocol.swift */,
+				3D93059527EB17DF001E29B2 /* ExamListRouterProtocol.swift */,
+				3D93059727EB17ED001E29B2 /* ExamListConfiguratorProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3D93059927EB1C29001E29B2 /* api-modules */ = {
+			isa = PBXGroup;
+			children = (
+				3D9305AB27EB1F5C001E29B2 /* AuthApiModule.swift */,
+			);
+			path = "api-modules";
+			sourceTree = "<group>";
+		};
+		3D93059A27EB1C34001E29B2 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3D9305AD27EB2010001E29B2 /* AuthApiDelegate.swift */,
+				3D9305B127EB2085001E29B2 /* RequestDelegate.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3D93059D27EB1D75001E29B2 /* common-utils */ = {
+			isa = PBXGroup;
+			children = (
+				3D93059E27EB1D7E001E29B2 /* extensioms */,
+			);
+			path = "common-utils";
+			sourceTree = "<group>";
+		};
+		3D93059E27EB1D7E001E29B2 /* extensioms */ = {
+			isa = PBXGroup;
+			children = (
+				3D9305B527EB279E001E29B2 /* StringExtension.swift */,
+			);
+			path = extensioms;
+			sourceTree = "<group>";
+		};
+		3D9305A127EB1E1B001E29B2 /* responseMessage */ = {
+			isa = PBXGroup;
+			children = (
+				3D9305A227EB1E32001E29B2 /* AnyError.swift */,
+				3D9305A427EB1E3C001E29B2 /* ResponseMessage.swift */,
+			);
+			path = responseMessage;
+			sourceTree = "<group>";
+		};
+		3D9305A627EB1E5F001E29B2 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				3D9305A727EB1E78001E29B2 /* RequestInit.swift */,
+				3D93059F27EB1D8E001E29B2 /* DataType.swift */,
+				3D9305A927EB1EC9001E29B2 /* ResponseType.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
 		3DB15B2F27E7134400B93A4F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +394,8 @@
 				3DB15B5127E7134800B93A4F /* DiplomaTeacherAppTests */,
 				3DB15B5B27E7134800B93A4F /* DiplomaTeacherAppUITests */,
 				3DB15B3927E7134500B93A4F /* Products */,
+				7C957E0446FF680F6CA11157 /* Pods */,
+				6333200843166C4A285CF7F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +412,13 @@
 		3DB15B3A27E7134500B93A4F /* DiplomaTeacherApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D93059D27EB1D75001E29B2 /* common-utils */,
+				3D93058227EB1711001E29B2 /* common-ui */,
+				3D93053B27E9D418001E29B2 /* services */,
+				3D93053A27E9D405001E29B2 /* app-modules */,
+				3D93053927E9D3F5001E29B2 /* entity */,
 				3DB15B3B27E7134500B93A4F /* AppDelegate.swift */,
 				3DB15B3D27E7134500B93A4F /* SceneDelegate.swift */,
-				3DB15B3F27E7134500B93A4F /* ViewController.swift */,
 				3DB15B4127E7134500B93A4F /* Main.storyboard */,
 				3DB15B4427E7134700B93A4F /* Assets.xcassets */,
 				3DB15B4627E7134700B93A4F /* LaunchScreen.storyboard */,
@@ -127,6 +444,29 @@
 			path = DiplomaTeacherAppUITests;
 			sourceTree = "<group>";
 		};
+		6333200843166C4A285CF7F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27389CC4E1B821B71A01367B /* Pods_DiplomaTeacherApp.framework */,
+				A9BA5AF9FC7AEBC917C69C25 /* Pods_DiplomaTeacherApp_DiplomaTeacherAppUITests.framework */,
+				B8D945FD0AC2BE64FCB17797 /* Pods_DiplomaTeacherAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C957E0446FF680F6CA11157 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				938524BEF195DD75D273041A /* Pods-DiplomaTeacherApp.debug.xcconfig */,
+				56FA03ECEC972065705ADC1A /* Pods-DiplomaTeacherApp.release.xcconfig */,
+				95BB0FF75D8114F00ECEC1E3 /* Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests.debug.xcconfig */,
+				497C9FC4B58D4E9F31D23260 /* Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests.release.xcconfig */,
+				872D39F336E3BE2A1665B695 /* Pods-DiplomaTeacherAppTests.debug.xcconfig */,
+				CD156754B74B7C259F295811 /* Pods-DiplomaTeacherAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +474,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DB15B6227E7134800B93A4F /* Build configuration list for PBXNativeTarget "DiplomaTeacherApp" */;
 			buildPhases = (
+				AC5DC663A29064F2ED5F7A4A /* [CP] Check Pods Manifest.lock */,
 				3DB15B3427E7134500B93A4F /* Sources */,
 				3DB15B3527E7134500B93A4F /* Frameworks */,
 				3DB15B3627E7134500B93A4F /* Resources */,
+				7D4143E89D89F6529631E8F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +493,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DB15B6527E7134800B93A4F /* Build configuration list for PBXNativeTarget "DiplomaTeacherAppTests" */;
 			buildPhases = (
+				A838624317961109B1D8007E /* [CP] Check Pods Manifest.lock */,
 				3DB15B4A27E7134800B93A4F /* Sources */,
 				3DB15B4B27E7134800B93A4F /* Frameworks */,
 				3DB15B4C27E7134800B93A4F /* Resources */,
@@ -169,9 +512,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DB15B6827E7134800B93A4F /* Build configuration list for PBXNativeTarget "DiplomaTeacherAppUITests" */;
 			buildPhases = (
+				7406531FACD184D5B335A70A /* [CP] Check Pods Manifest.lock */,
 				3DB15B5427E7134800B93A4F /* Sources */,
 				3DB15B5527E7134800B93A4F /* Frameworks */,
 				3DB15B5627E7134800B93A4F /* Resources */,
+				D84F2E3B1C64EC6E84A4E2F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +598,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7406531FACD184D5B335A70A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4143E89D89F6529631E8F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiplomaTeacherApp/Pods-DiplomaTeacherApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiplomaTeacherApp/Pods-DiplomaTeacherApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiplomaTeacherApp/Pods-DiplomaTeacherApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A838624317961109B1D8007E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiplomaTeacherAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC5DC663A29064F2ED5F7A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiplomaTeacherApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D84F2E3B1C64EC6E84A4E2F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests/Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests/Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests/Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3DB15B3427E7134500B93A4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB15B4027E7134500B93A4F /* ViewController.swift in Sources */,
+				3D93057427EB1471001E29B2 /* SignUpRouter.swift in Sources */,
+				3D93055E27EA07BB001E29B2 /* LogInRouterProtocol.swift in Sources */,
+				3D9305A527EB1E3C001E29B2 /* ResponseMessage.swift in Sources */,
+				3D93054127E9D59C001E29B2 /* SocketClient.swift in Sources */,
+				3D9305B227EB2085001E29B2 /* RequestDelegate.swift in Sources */,
+				3D93055C27EA074D001E29B2 /* LogInPresenterProtocol.swift in Sources */,
+				3D93057627EB147F001E29B2 /* SignUpConfigurator.swift in Sources */,
+				3D9305AA27EB1EC9001E29B2 /* ResponseType.swift in Sources */,
+				3D93056A27EA7D76001E29B2 /* Student.swift in Sources */,
+				3D93054927E9D671001E29B2 /* KeyConstants.swift in Sources */,
+				3D93057927EB1493001E29B2 /* SignUpViewProtocol.swift in Sources */,
+				3D9305A827EB1E78001E29B2 /* RequestInit.swift in Sources */,
+				3D93058B27EB177F001E29B2 /* ExamListRouter.swift in Sources */,
+				3D93059027EB17A3001E29B2 /* ExamListViewProtocol.swift in Sources */,
+				3D93055327EA0656001E29B2 /* LogInRouter.swift in Sources */,
+				3D93055127EA064C001E29B2 /* LogInPresenter.swift in Sources */,
+				3D9305B027EB2054001E29B2 /* RequestManager.swift in Sources */,
+				3D93058D27EB178A001E29B2 /* ExamListConfigurator.swift in Sources */,
+				3D93059627EB17DF001E29B2 /* ExamListRouterProtocol.swift in Sources */,
 				3DB15B3C27E7134500B93A4F /* AppDelegate.swift in Sources */,
+				3D93059427EB17D2001E29B2 /* ExamListPresenterProtocol.swift in Sources */,
+				3D93059227EB17C5001E29B2 /* ExamListInteractorProtocol.swift in Sources */,
+				3D93057027EB145A001E29B2 /* SignUpInteractor.swift in Sources */,
+				3D93054527E9D60B001E29B2 /* StorageManager.swift in Sources */,
+				3D9305AC27EB1F5C001E29B2 /* AuthApiModule.swift in Sources */,
+				3D93058527EB1757001E29B2 /* ExamListViewController.swift in Sources */,
+				3D93056427EA7AE2001E29B2 /* Discipline.swift in Sources */,
+				3D93055827EA0728001E29B2 /* LogInViewProtocol.swift in Sources */,
+				3D93054D27EA0630001E29B2 /* LogInViewController.swift in Sources */,
 				3DB15B3E27E7134500B93A4F /* SceneDelegate.swift in Sources */,
+				3D93056827EA7CDD001E29B2 /* Teacher.swift in Sources */,
+				3D93059C27EB1C4A001E29B2 /* ImageUploader.swift in Sources */,
+				3D93056027EA07CD001E29B2 /* LogInConfiguratorProtocol.swift in Sources */,
+				3D93058727EB1763001E29B2 /* ExamListInteractor.swift in Sources */,
+				3D93054327E9D5E3001E29B2 /* MainData.swift in Sources */,
+				3D9305A327EB1E32001E29B2 /* AnyError.swift in Sources */,
+				3D9305AE27EB2010001E29B2 /* AuthApiDelegate.swift in Sources */,
+				3D93057B27EB14A5001E29B2 /* SignUpInteractorProtocol.swift in Sources */,
+				3D93057D27EB14B4001E29B2 /* SignUpPresenterProtocol.swift in Sources */,
+				3D93055A27EA0737001E29B2 /* LogInInteractorProtocol.swift in Sources */,
+				3D93057227EB1465001E29B2 /* SignUpPresenter.swift in Sources */,
+				3D93056227EA7920001E29B2 /* Account.swift in Sources */,
+				3D9305B627EB279E001E29B2 /* StringExtension.swift in Sources */,
+				3D9305A027EB1D8E001E29B2 /* DataType.swift in Sources */,
+				3D93059827EB17ED001E29B2 /* ExamListConfiguratorProtocol.swift in Sources */,
+				3D93056E27EB1443001E29B2 /* SignUpViewController.swift in Sources */,
+				3D93056627EA7B39001E29B2 /* Exam.swift in Sources */,
+				3D93053F27E9D45A001E29B2 /* APIClient.swift in Sources */,
+				3D93056C27EA7F7D001E29B2 /* Ticket.swift in Sources */,
+				3D93058127EB14F2001E29B2 /* SignUpConfiguratorProtocol.swift in Sources */,
+				3D93055527EA070E001E29B2 /* LogInConfigurator.swift in Sources */,
+				3D9305B427EB2705001E29B2 /* MessageEntity.swift in Sources */,
+				3D93058927EB176E001E29B2 /* ExamListPresenter.swift in Sources */,
+				3D93057F27EB14C6001E29B2 /* SignUpRouterProtocol.swift in Sources */,
+				3D93054F27EA063F001E29B2 /* LogInInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +934,7 @@
 		};
 		3DB15B6327E7134800B93A4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938524BEF195DD75D273041A /* Pods-DiplomaTeacherApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +963,7 @@
 		};
 		3DB15B6427E7134800B93A4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FA03ECEC972065705ADC1A /* Pods-DiplomaTeacherApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +992,7 @@
 		};
 		3DB15B6627E7134800B93A4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872D39F336E3BE2A1665B695 /* Pods-DiplomaTeacherAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +1013,7 @@
 		};
 		3DB15B6727E7134800B93A4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD156754B74B7C259F295811 /* Pods-DiplomaTeacherAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +1034,7 @@
 		};
 		3DB15B6927E7134800B93A4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95BB0FF75D8114F00ECEC1E3 /* Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +1053,7 @@
 		};
 		3DB15B6A27E7134800B93A4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497C9FC4B58D4E9F31D23260 /* Pods-DiplomaTeacherApp-DiplomaTeacherAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
